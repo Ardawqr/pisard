@@ -7,43 +7,33 @@ st.warning("Bu Site Kullanıcının Bilgilerine İlişkin Tüm Protokolleri KVKK
 
 st.markdown("""
     <style>
-    /* --- ARKA PLAN RENKLENDİRME --- */
     .stApp {
-        /* Koyu Gece Mavisi arka plan (İstersen burayı değiştirebilirsin) */
         background-color: #0f172a !important; 
     }
-
-    /* Sayfadaki tüm normal yazıların rengini beyaz/gri yapalım ki koyu arka planda okunsun */
     h1, p, label {
         color: #f1f5f9 !important;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-
-    /* Giriş kutularının (text input) arka planını ve sınırlarını da uyumlu yapalım */
     input {
         background-color: #1e293b !important;
         color: white !important;
         border: 1px solid #475569 !important;
     }
-
-    /* --- BUTON TASARIMI --- */
     div.stButton > button:first-child {
-        width: 100% !important;        /* Butonun tüm satırı kaplamasını sağlar */
-        height: 60px !important;       /* Butonun yüksekliğini arttırır (Büyütür) */
-        font-size: 24px !important;    /* Butonun içindeki yazıyı kocaman yapar */
-        font-weight: bold !important;  /* Yazıyı kalınlaştırır */
-        background-color: #ff4b4b !important; /* Buton rengi (Kırmızı/Turuncu) */
-        color: white !important;       /* Yazı rengi */
-        border-radius: 12px !important;/* Köşeleri ovalleştirir */
+        width: 100% !important;        
+        height: 60px !important;       
+        font-size: 24px !important;    
+        font-weight: bold !important; 
+        background-color: #ff4b4b !important; 
+        color: white !important;      
+        border-radius: 12px !important;
         border: none !important;
-        transition: 0.3s ease-in-out !important; /* Geçiş efekti */
+        transition: 0.3s ease-in-out !important;
     }
-
-    /* Mouse ile butonun üzerine gelindiğinde olacak efektler */
     div.stButton > button:first-child:hover {
-        background-color: #ff2b2b !important; /* Rengi biraz daha koyulaşır */
-        transform: scale(1.02) !important;   /* Buton hafifçe büyür (pop-out efekti) */
-        box-shadow: 0px 8px 15px rgba(255, 75, 75, 0.4) !important; /* Altına gölge verir */
+        background-color: #ff2b2b !important;
+        transform: scale(1.02) !important;   
+        box-shadow: 0px 8px 15px rgba(255, 75, 75, 0.4) !important; 
     }
     </style>
 """, unsafe_allow_html=True)
